@@ -1,4 +1,5 @@
 // codefrce alice and bob 
+// jckjk
 #include<bits/stdc++.h>
 using namespace std;
 #define int long long
@@ -7,6 +8,7 @@ double distance(double x1,double y1,double x2,double y2){
     double p2 = y1-y2;
     double j = (p1*p1)+(p2*p2);
     double k = sqrt(j);
+    
     return k;
 }
 void printvec(vector<int>v){
